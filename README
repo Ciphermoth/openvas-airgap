@@ -1,0 +1,10 @@
+OpenVAS Air-Gapped Container
+
+This project provides a Docker container for OpenVAS (Greenbone Vulnerability Management) built entirely from precompiled binaries, designed for deployment in air-gapped or highly restricted environments. It includes:
+
+- Offline support for NVT, CERT, and SCAP feeds
+- PostgreSQL and Redis integration
+- Custom entrypoint for automated setup
+- Minimal external dependencies
+
+Perfect for secure networks, internal audits, or environments with no internet access.
